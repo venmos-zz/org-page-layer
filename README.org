@@ -1,4 +1,31 @@
-#+TITLE: Org-Page contribution layer for Spacemacs
+#+TITLE: Org-Page layer for Spacemacs
+
+* Description
+
+Org-page https://github.com/kelvinh/org-page.git
+
+** Org-page: Static Site Generator
+
+*** Introduction
+
+Org-page is a static site generator based on org-mode.
+
+Org-page provides the following features:
+
+1. Org sources and html files managed by git
+2. Incremental publication (according to git diff command)
+3. Category support
+4. Tags support (auto generated)
+5. RSS support (auto generated)
+6. Search engine support (auto generated)
+7. A beautiful theme
+8. Theme customization support
+9. Commenting (implemented using disqus/duoshuo)
+10. Website traffic analytics (implemented using google analytics)
+11. Index/about page support (auto generated if no default is provided)
+12. Highly customizable
+13. Preview site in web browser
+
 
 * Key Bindings
 | Key Binding | Description                  |
