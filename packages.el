@@ -17,18 +17,18 @@
 
 (defun org-page/init-org-page ()
   (use-package org-page
-    :command (op/new-post
-              op/new-repository
-              op/do-publication
-              op/do-publication-and-preview-site
-              op/insert-options-template
-              )
+    :commands (op/new-post
+               op/new-repository
+               op/do-publication
+               op/do-publication-and-preview-site
+               op/insert-options-template
+               )
     :init
     (progn
-      evil-leader/set-key
-      "aon" 'op/new-post
-      "aor" 'op/new-repository
-      "aop" 'op/do-publication
-      "aov" 'op/do-publication-and-preview-site
-      "aot" 'op/insert-options-template
-      )))
+      (evil-leader/set-key
+        "aon" 'op/new-post
+        "aor" 'op/new-repository
+        "aop" 'op/do-publication
+        "aov" 'op/do-publication-and-preview-site
+        "aot" 'op/insert-options-template
+        ))))
