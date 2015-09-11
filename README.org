@@ -1,0 +1,10 @@
+#+TITLE: Org-Page contribution layer for Spacemacs
+
+* Key Bindings
+| Key Binding | Description                  |
+|-------------+------------------------------|
+| ~SPC aon~   | New post                     |
+| ~SPC aor~   | New repository               |
+| ~SPC anp~   | Publication                  |
+| ~SPC aov~   | Publication and preview site |
+| ~SPC aot~   | Insert options template      |
